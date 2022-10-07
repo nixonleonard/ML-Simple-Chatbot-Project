@@ -1,0 +1,48 @@
+{"dataset": [
+        {"tag": "greet",
+         "inputs": ["Hi", "Is anyone there?", "Hello", "Morning","Afternoon","Evening","Good day", "Whats up","Yoo", "Hey", "Nixobot"],
+         "responses": ["Hello!", "Hi there, how can I help you?"],
+         "context_set": ""
+        },
+        {"tag": "status",
+        "inputs": ["How do you do?", "How are you", "How you feel"],
+        "responses": ["I'm fine thank you for asking..", "I'm good, and you?"],
+        "context_set": ""
+        }, 
+        {"tag": "status-Back",
+        "inputs": ["Im good", "Im well", "im not feeling well","not good"],
+        "responses": ["Is there anything that i can help you?"],
+        "context_set": ""
+        },
+        {"tag": "bye",
+         "inputs": ["See you later", "Goodbye", "I am Leaving", "Have a Good day", "Bye", "Cya"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "inputs": ["how old", "how old are you", "what is your age", "age?"],
+         "responses": ["I am 20 years old!","... Im a bot you know ..."],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "inputs": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Nixobot.", "I'm Nixobot!", "You can call me Nixo or Nixobot"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "inputs": ["Id like to buy something", "whats on the menu", "what do you reccommend?","Is there any reccommendation", "could i get something to eat"],
+         "responses": ["Well you can see the menu and the recommendation on the description below", "Cookies, Cakes, Chocolate, and others are on the menu!", "We sell cakes for 3$ only!"],
+         "context_set": ""
+        },
+        {"tag": "discount",
+         "inputs": ["you have discount", "is there any discount", "discount"],
+         "responses": ["Sorry, we don't have any discount for today :("],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "inputs": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        }
+   ]
+}
